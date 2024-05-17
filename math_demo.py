@@ -7,5 +7,9 @@
 def summation(n):
     return int(n*(n+1)/2)
 
-number = 10
-print(f"The Gauss summation of {number} is {summation(number)}")
+
+# This part is executed when running from commandline
+if __name__ == "__main__":
+    
+    number = 10
+    print(f"The Gauss summation of {number} is {summation(number)}")
